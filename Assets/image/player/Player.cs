@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
         foot = GetComponent<BoxCollider2D>();
         Canvas_Pause.enabled=false;
         Canvas_HUD.enabled=true;
-        this.transform.position=spawn.spawnpoint;
+        //this.transform.position=spawn.spawnpoint;
     }
     void Update()
     {
